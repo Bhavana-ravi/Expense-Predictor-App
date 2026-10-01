@@ -1,7 +1,25 @@
-# Expense Predictor
+# Expense Prediction System
 
-## GitHub Pages deployment
+An expense prediction application that analyzes historical spending and predicts future expenses using **ARIMA time-series forecasting**.
 
-In the repository settings, open **Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select the branch containing this `index.html` (usually `main`), and choose **/(root)** as the folder. Save the settings. GitHub Pages publishes the root `index.html` and its CSS/JavaScript files directly from that branch.
+## Features
 
-After GitHub Pages publishes the branch, open https://bhavana-ravi.github.io/Expense-Predictor-App/. The app runs in your browser without a local command. Expenses and goals are saved in that browser's local storage. There is no account login, cloud backup, or cross-device sync; clearing the browser's site data removes its records.
+* Predicts future expenses from historical data
+* Weekly and monthly expense analysis
+* Category-wise expense tracking
+* Expense recording using SQLite
+* Data visualization using Matplotlib
+* Planning insights based on predicted spending
+
+## Technologies
+
+**Python | ARIMA | Pandas | Scikit-learn | Matplotlib | Flask | SQLite**
+
+## Prediction
+
+The system achieved approximately **82% prediction accuracy** on the evaluated expense data.
+Then open the local URL shown in the terminal.
+
+## Live Demo
+
+https://bhavana-ravi.github.io/Expense-Predictor-App/
